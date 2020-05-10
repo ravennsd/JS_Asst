@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS10_Part1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <h1 id="head">JS Assignments Part 1</h1>
+
+<div class=" row col-md-12">
+        <div class="card col-md 4"  >
+     
+            <div class="card-body">
+              <h5 class="card-title"  >PRIME NUMBER CHECK</h5>
+              <p id="displayNums"></p>
+              <p class="card-text"> First Element of Array is: 
+               <span id="firstEl">  </span></p>
+              <button style="width: ;" onclick="result();" class="btn btn-dark">Click to Check whether this number is prime or not</button>
+              <div id="result">
+
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="card col-md 4"  >
+        
+            <div class="card-body">
+              <h5 class="card-title"  >MOST FREQUENT ITEM</h5>
+        
+              <p> </p>
+              <p class="card-text"> Find the Most Frequent item of the array of Items: <span id="items"></span>
+               </p> 
+            
+              <button style="width:;" onclick="Freq();" class="btn btn-primary btn-primary:hover 
+              btn-primary:active btn-primary:visited">Click to see the array arranged in alphabetical order</button>
+              <div id="result2"> 
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md 4"  >
+        
+            <div class="card-body">
+              <h5 class="card-title"  >SWITCH CASES</h5>
+        
+              <p> </p>
+              <p class="card-text"> Program to Switch Cases of 'The Quick Brown Fox' to 'tHE qUICK bROWN fOX'. 
+                  <span id="string"></span>
+               </p> 
+            
+              <button style="width: ;" onclick="brownFox();" class="btn btn-dark">Click to Switch Cases of string: </button>
+              <div id="result3"> 
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card col-md 4"  >
+         
+            <div class="card-body">
+              <h5 class="card-title"  >SUM OF SQUARES OF ARRAY</h5>
+              <p id="displayNums4"></p>
+              <p class="card-text"> 
+               <span id="firstEl">  </span></p>
+              <button style="width: ;" onclick="square();" class="btn btn-dark">Click to get the Sum of Squares of the elements of the above array</button>
+              <div id="result4" > 
+
+              </div>
+            </div>
+          </div>
+</div>
+<div class=" row col-md-12"> 
+<!-- 
+          <div class="col-md-4" > 
+            <span > </span>
+          </div> -->
+
+          <div class="card col-md-4" >
+        
+            <div class="card-body">
+              <h5 class="card-title"  >Iterate</h5>
+        
+              <p> </p>
+              <p class="card-text"> Program to Switch Cases of 'The Quick Brown Fox' to 'tHE qUICK bROWN fOX'. 
+                  <span id="s"></span>
+               </p> 
+            
+              <button  onclick="" class="btn btn-dark">Click to Switch Cases of string: </button>
+              <div id="result5"> 
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-4"  >
+        
+            <div class="card-body">
+              <h5 class="card-title"  >TRUNCATE STRING</h5>
+        
+              <p> </p>
+              <p class="card-text"> This Program will Truncate the Sentence "The Qucik Brown Fox" from the 'Q'
+
+                  <span id="cut"></span>
+               </p> 
+            
+              <button onclick="sliceString();" class="btn btn-dark">Click to see the Cut Sentence </button>
+              <div id="result6" > 
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-md-4" >
+        
+            <div class="card-body">
+              <h5 class="card-title"  >FIND LARGE</h5>
+              
+              <input id="num1" type="text" placeholder="Enter the first number">
+              <p> </p>
+              <input id="num2" type="text" placeholder="Enter the second number">
+              <p> </p>
+
+              <p class="card-text" onmouseover="displayInput();"> Program to find the larger number of No.s:
+                  <span id="one"></span> and <span id="two"></span>
+               </p> 
+  
+              <button onclick="largerNo();" class="btn btn-dark">Click to Find the Larger Number: </button>
+              <div id="result7" > 
+
+              </div>
+            </div>
+          </div>
+</div>
+
+
+<script src="first.js"></script>
+<script src="four.js"></script>
+<script src="two.js"></script>
+<script src="three.js"></script>
+<script src="six.js"></script>
+<script src="seven.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

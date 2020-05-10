@@ -1,0 +1,56 @@
+#displayNums, #displayNums4, #text1, #text2, #text3, #texta, #textb, #textc, #num1,#num2 {
+    
+    height: 30px;
+
+    color:rgb(107, 10, 131);
+    background-color: rgb(231, 133, 226);
+
+    text-align: justify;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-rendering: geometricPrecision;
+    font-size: larger;
+    max-width: + 70px;
+}
+#firstEl {
+    height: 70px;
+    font-size: large;
+    background-color:rgb(224, 192, 222);
+    color:darkblue;
+    
+}
+#head {
+    color:rgb(32, 8, 61);
+}
+.card-title{
+    color:rgb(99, 54, 153);
+}
+.card-text {
+    
+    font-size: large;
+    background-color:rgb(250, 175, 200);
+    font-weight: 300;
+}
+
+
+.btn, .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgb(99, 54, 153) !important;
+   text-align: center; 
+   align-items: center;
+   background-color: rgb(176, 147, 202);
+} 
+#result,
+#result4, #result2, #result3, #result6, #result7 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    color:darkblue;
+    font-weight: 200;
+    height: 50px;
+    
+} 
+#one, #two {
+    background-color: lightblue;
+    color: green;
+    font-weight: 200;
+}
