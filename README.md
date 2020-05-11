@@ -1,1 +1,1 @@
-"creatinf readme file in pc" 
+"creating readme file in pc" 
